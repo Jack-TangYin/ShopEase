@@ -1,0 +1,64 @@
+/* Sub-Navbar Styles */
+
+
+
+
+.sticky-top {
+    z-index: 1030; /* Ensure it stays above other elements */
+}
+
+
+
+/* Hero Section */
+.hero-section {
+    background: url('../img/headphone.jpg') no-repeat center center/cover;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Deal Cards */
+.deal-card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* Category Cards */
+.category-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+/* Deal Cards */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Recommendation Cards */
+.recommendation-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.recommendation-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Quick View Modal */
+.modal-body img {
+    max-height: 300px;
+    object-fit: contain;
+    margin: 0 auto;
+}
